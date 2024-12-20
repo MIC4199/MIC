@@ -1,0 +1,181 @@
+ /*  MY CODE */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo img{
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 1px;
+    width: 220px;
+    height: 100px;
+
+}
+
+ul{
+    margin-right: 100px;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    float: right;
+    line-height: 100px;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: arial;
+    color: black;
+    padding: 0 20px;
+}
+
+
+.index-h1{
+    text-align: center;
+    font-family: algerian; 
+    font-size: 30px;
+    line-height: 15px;
+}
+
+
+
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(117, 106, 106);
+}
+
+
+
+h2{
+    font-family: Bookman Old Style;
+    text-align: center;
+    font-size: 30px;
+    line-height: 40px;
+}
+p{
+    font-family: arial;
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+
+p1{
+    font-family: arial;
+    line-height: 35px;
+    text-align: justify;
+}
+h3{
+    font-family: Bookman Old Style;
+    text-align: center;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+h4{
+    font-family: Bookman Old Style;
+    text-align: center;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.Testimony{
+    background-repeat: no-repeat;
+            margin: 0;
+            width: 100%;
+            background-size: cover;
+            background-position: center;
+            height: 60vh;
+            padding: 0;
+}
+
+
+
+
+
+
+
+
+footer{
+    display: grid;
+    justify-content: center;
+    position: relative;
+    align-content: end;
+    min-height: 35vh;
+    background-color: rgb(117, 106, 106);
+    padding: 0px;
+}
+
+footer .container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+
+footer .container .sec h4{
+    position: relative;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-family: Bookman Old Style;
+
+}
+
+
+footer .container .quicklinks{
+    position: relative;
+    text-align: center;
+    line-height: 25px;
+}
+
+footer .container .quicklinks ul li{
+    list-style: none;
+    line-height: 50px;
+    height: 50px;
+}
+
+footer .container .e{
+position: relative;
+text-align: center;
+display: grid;
+}
+
+footer .container .e{
+    list-style: none;
+    line-height: 30px;
+    height: 50px;
+}
+
+footer .container .quicklinks ul li a{
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-left: 50px; 
+
+}
+
+footer .container .e ul li{
+    list-style: none;
+    line-height: 30px;
+    height: 50px;
+}
+
+
+footer .container .e ul li{
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 2px;
+    margin-left: 30px; 
+}
+    
+
+
+
+
+
+
+
+
